@@ -1,7 +1,7 @@
 import Dispatcher from './dispatcher.js';
 import $ from 'jquery';
 
-const ws = new WebSocket('ws://127.0.0.1:8197');
+const ws = new WebSocket('ws://192.168.12.1:8197');
 const wsRpc = function(device, param, value) {
   const msg = {
     jsonrpc: '2.0',

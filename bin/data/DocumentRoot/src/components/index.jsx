@@ -12,7 +12,7 @@ class Index extends React.Component {
           <MainPanel />
           {this.props.children}
           <div>
-            <img src="http://127.0.0.1:7890/ipvideo" />
+            <img src="http://192.168.12.1:7890/ipvideo" />
           </div>
         </div>
       </div>
